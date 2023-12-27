@@ -38,3 +38,14 @@
     transform: rotate(360deg);
   }
 }
+
+.counterBtn{
+  cursor: pointer;
+  background: blue;  
+  color: white;
+  font-size: large;
+}
+
+.counterBtn:hover{
+  background: red;
+}

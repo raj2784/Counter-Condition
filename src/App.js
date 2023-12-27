@@ -39,9 +39,13 @@ function App() {
         Counter : {counter}
         <br />
         <br />
-        <button onClick={increaseValue}>+ Increase</button>
+        <button className="counterBtn" onClick={increaseValue}>
+          + Increase
+        </button>
         <br />
-        <button onClick={decreaseValue}>- Decrease</button>
+        <button className="counterBtn" onClick={decreaseValue}>
+          - Decrease
+        </button>
         <br />
         counts : {counter}
       </div>
