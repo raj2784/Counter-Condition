@@ -33,6 +33,9 @@ function App() {
   return (
     <>
       <div className="App-header">
+        <h3>
+          Counter with Condition and (lowest up to = 1 | highest up to = 20)
+        </h3>
         Counter : {counter}
         <br />
         <br />
